@@ -58,7 +58,7 @@ class Topics(object):
     def post_collection_topics(self,accesstoken,topic_id):
         data = {
             'accesstoken':accesstoken,
-            'topic_id ':topic_id 
+            'topic_id':topic_id 
             }
         r = requests.post(self.url,data = data)
         return r
@@ -68,7 +68,7 @@ class Topics(object):
     def post_cancel_topics(self,accesstoken,topic_id):
         data = {
             'accesstoken':accesstoken,
-            'topic_id ':topic_id 
+            'topic_id':topic_id 
             }
         r = requests.post(self.url,data = data)
         return r
